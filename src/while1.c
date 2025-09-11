@@ -4,7 +4,7 @@
 int main(){
     system("clear");
     int i = 1;
-    while( i <= 10){ //inicio da execução 
+    while( i <= 10){ //inicio da execução. Laço de repediçaõ 
         printf("%d\n",i); 
         i++;
     }
