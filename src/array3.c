@@ -6,8 +6,7 @@ int main(){
     // fetores
     int valores[7] = {10,56,30,13,1,47,59};
     int numeros[5] = {3,10,4,77,47};
-    int igual = valores [0];
-    int mesmo = numeros[0];
+
 
     for(int i = 0 ; i <= 6 ; i++){
     
