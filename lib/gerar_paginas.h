@@ -8,3 +8,10 @@ void criar_index(char *nome){//esta dando libertade para o usuario criar.
     fclose(pagina);
 
 }
+
+void novo_arquivo(char *nome, char *conteudo){
+    FILE *arquivo;
+    arquivo = fopen(nome,"a"); //se colocar "" e como se tive colocando o numero do arquivo
+    fputs(conteudo,arquivo);
+    fclose(arquivo);
+}
